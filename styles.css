@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    line-height: 1;
+    background-color: #F4F5F7;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.header__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 45px 130px;
+    height: 135px;
+}
+
+.header__menu {
+    flex: 1 1 auto;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.header__logo_img {
+    padding-right: 10px;
+}
+
+.header__logo_text {
+    font-size: 18px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    color: #475467;
+    gap: 13px;
+}
+
+.header__menu_items {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+
+.button_group {
+    margin-left: auto;
+    gap: 18px;
+}
+
+.header__button_one {
+    width: 95px;
+    height: 45px;
+    border-radius: 8px;
+    color: #475467;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.header__button_two {
+    width: 95px;
+    height: 45px;
+    border-radius: 8px;
+    color: white;
+    background-color: #7F56D9;
+    border: 1px solid #7F56D9;
+}
+
+
+.menu__item:hover .menu-item__dropdown {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .3s ease-in-out;
+}
+
+.menu-item__dropdown {
+    opacity: 1;
+    pointer-events: none;
+    transition: opacity .3s ease-in-out;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: #fff;
+    height: 400px;
+    width: 100vw;
+    z-index: -1;
+}
+
+.menu-item__dropdown {
+    padding: 135px 130px 0 130px;
+}
+
+.dropdown-column {
+    display: flex;
+}
+
+.dropdown-column__title {
+    display: flex;
+    font-size: 14px;
+    color: #7F56D9;
+}
+
+
+
+
+
