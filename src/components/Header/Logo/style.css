@@ -1,0 +1,16 @@
+.header__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.header__logo_img {
+    padding-right: 10px;
+    margin-left: -4px;
+}
+
+.header__logo_text {
+    font-size: 18px;
+    font-weight: bold;
+    gap: 10px;
+}
