@@ -1,4 +1,6 @@
 import './style.css'
+import New from '../DropdownSecondColumn/New/New'
+
 
 const DropdownItem = (props) => {
     return (
@@ -8,7 +10,7 @@ const DropdownItem = (props) => {
                  {props.isNew
                      ? <span className="dropdown__item_title-container">
                             <span className="dropdown__item_title">Products</span>
-                            <span className="dropdown__item_title-new">New</span>
+                         <New/>
                         </span>
                      : <span className="dropdown__item_title">Products</span>
                  }
