@@ -1,0 +1,13 @@
+.dropdown__other_footer {
+    display: flex;
+    margin-top: 45px;
+}
+
+.dropdown__other_footer-text {
+    color: #7F56D9;
+}
+
+.dropdown__other_footer-icon {
+    margin-left: 12px;
+    margin-top: -3px;
+}

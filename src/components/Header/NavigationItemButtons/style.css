@@ -1,0 +1,22 @@
+.button_group {
+    margin-left: auto;
+    gap: 18px;
+}
+
+.header__button_one {
+    width: 95px;
+    height: 45px;
+    border-radius: 8px;
+    color: #475467;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.header__button_two {
+    width: 95px;
+    height: 45px;
+    border-radius: 8px;
+    color: white;
+    background-color: #7F56D9;
+    border: 1px solid #7F56D9;
+}
