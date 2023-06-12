@@ -7,8 +7,8 @@ const Navigation = () => {
         <nav className="header__menu">
             <ul className="header__menu_items">
                 <NavigationItem title={'Home'} />
-                <NavigationItem title={'Products'} withDropdown />
-                <NavigationItem title={'Resources'} withDropdown />
+                <NavigationItem title={'Resources'} dropdownType={"resources"} />
+                <NavigationItem title={'Products'} dropdownType={"products"} />
                 <NavigationItem title={'Pricing'} />
                 <NavigationItemButtons />
             </ul>

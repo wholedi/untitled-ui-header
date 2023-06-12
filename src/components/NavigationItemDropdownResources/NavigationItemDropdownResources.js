@@ -1,13 +1,12 @@
 import DropdownResourcesColumn from './DropdownResourcesColumn/DropdownResourcesColumn'
-import DropdownResourcesFooter from './DropdownResourcesFooter/DropdownResourcesFooter'
-
+import './style.css'
 
 const NavigationItemDropdownResources = () => {
     return (
         <span className="menu-item_dropdown">
             <span className="menu-item_dropdown__container">
                 <DropdownResourcesColumn/>
-                <DropdownResourcesFooter/>
+                {/*<DropdownResourcesFooter/>*/}
             </span>
         </span>
     )

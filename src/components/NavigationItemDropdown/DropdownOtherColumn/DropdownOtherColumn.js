@@ -1,6 +1,7 @@
 import DropdownOtherItem from "./DropdownOtherItem/DropdownOtherItem";
 import DropdownOtherColumnFooter from "./DropdownOtherColumnFooter/DropdownOtherColumnFooter";
 import './style.css'
+
 const DropdownOtherColumn = () => {
     return (
         <span className="dropdown dropdown--other">

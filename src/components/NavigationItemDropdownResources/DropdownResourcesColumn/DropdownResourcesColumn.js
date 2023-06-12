@@ -1,18 +1,15 @@
 import NavigationDropdownResourcesColumn from '../NavigationDropdownResourcesColumn/NavigationDropdownResourcesColumn'
-import New from '../../NavigationItemDropdown/DropdownSecondColumn/New/New'
+import './style.css'
 
 
 const DropdownResourcesColumn = () => {
     return (
-
-        <span className="dropdown">
+        <span className="dropdown__second">
             <NavigationDropdownResourcesColumn/>
             <NavigationDropdownResourcesColumn/>
-            <NavigationDropdownResourcesColumn/><New/>
+            <NavigationDropdownResourcesColumn/>
             <NavigationDropdownResourcesColumn/>
         </span>
-
-
     )
 }
 
