@@ -189,6 +189,18 @@ body {
     padding-right: 20px;
 }
 
+.dropdown__item_svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F4EBFF;
+    border-radius: 24px;
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+
+}
+
 .dropdown__title {
     font-size: 14px;
     color: #7F56D9;
@@ -264,4 +276,11 @@ body {
 .dropdown__other_footer-icon {
     margin-left: 12px;
     margin-top: -3px;
+}
+
+.dropdown.dropdown__resources{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+
 }
