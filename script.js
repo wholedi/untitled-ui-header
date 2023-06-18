@@ -6,11 +6,12 @@ menuBtn.addEventListener('click', () => {
     menuList.classList.toggle('active')
 })
 
-const button = document.querySelector('.menu__link');
-
-button.addEventListener('click', () => {
-    button.classList.toggle('active');
-});
+const buttonsArray = document.querySelectorAll('.menu__link_dropdown')
+for (let i = 0; i < buttonsArray.length; i++) {
+    buttonsArray[i].addEventListener('click', () => {
+        buttonsArray[i].classList.toggle('active')
+    })
+}
 
 
 
