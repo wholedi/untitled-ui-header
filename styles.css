@@ -121,12 +121,13 @@ body {
     border: 1px solid transparent;
 }
 
-.menu__link{
+.menu__link {
     all: unset;
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
+
 .header__button_two {
     width: 95px;
     height: 45px;
@@ -475,6 +476,27 @@ body {
 
     .menu__item.menu-item_dropdown.active {
         opacity: 1;
+    }
+
+    .menu-item_dropdown {
+        display: block;
+        max-width: 0;
+        opacity: 0;
+        transition: max-width 0.3s ease, opacity 0.3s ease;
+        overflow: hidden;
+    }
+
+    .menu-item_dropdown.active {
+        max-width: 300px;
+        opacity: 1;
+    }
+
+    .header__menu_icon {
+        transform: rotate(0deg);
+    }
+
+    .menu__link_dropdown.active .header__menu_icon {
+        transform: rotate(180deg);
     }
 
 }
