@@ -126,6 +126,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+
 }
 
 .header__button_two {
@@ -497,6 +498,16 @@ body {
 
     .menu__link_dropdown.active .header__menu_icon {
         transform: rotate(180deg);
+    }
+
+    .menu-item_dropdown{
+        position: relative;
+    }
+
+    .menu-item_dropdown__container {
+       display: flex;
+        flex-direction: column;
+        min-width: 320px;
     }
 
 }
